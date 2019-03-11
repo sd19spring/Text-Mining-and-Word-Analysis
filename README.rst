@@ -45,7 +45,7 @@ The easiest and fastest way to get the packages up and running:
     print(requests.get('http://google.com').text)
 
 .. code-block:: python
-    $ python -m nltk.downloader all
+    python -m nltk.downloader all
   
 Documentation
 =============
