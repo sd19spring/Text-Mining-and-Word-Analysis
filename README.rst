@@ -43,8 +43,6 @@ The easiest and fastest way to get the packages up and running:
 
     import requests
     print(requests.get('http://google.com').text)
-
-.. code-block:: python
     python -m nltk.downloader all
   
 Documentation
