@@ -40,11 +40,12 @@ Installation
 The easiest and fastest way to get the packages up and running:
 
 .. code-block:: python
-      import requests
-      print(requests.get('http://google.com').text)
+
+    import requests
+    print(requests.get('http://google.com').text)
 
 .. code-block:: python
-      $ python -m nltk.downloader all
+    $ python -m nltk.downloader all
   
 Documentation
 =============
