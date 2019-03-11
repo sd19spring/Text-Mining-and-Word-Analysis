@@ -7,15 +7,13 @@
 Text Mining is a project in Software Design at Olin College of Engineering. It
 conducts the following analyses on a given text:
 
-:i: Pickles the books 
+:i: Pickles the books from a given web link 
 
-:ii: Does Markov Analysis on the text
+:ii: Analysis 1 - Word Frequency Analysis
 
-:iii: Writes a book using the analysis results
+:iii: Analysis 2 - Markov Analysis
 
-:iv: Compares the book to the original books
-
-:v: Outputs how similar the book is to the input books
+:iv: Analysis 3 - Sentiment Analysis
 
 Requirements
 ============
@@ -42,11 +40,11 @@ Installation
 The easiest and fastest way to get the packages up and running:
 
 .. code-block:: python
-  >>> import requests
-  >>> print(requests.get('http://google.com').text)
+      import requests
+      print(requests.get('http://google.com').text)
 
 .. code-block:: python
-  $ python -m nltk.downloader all
+      $ python -m nltk.downloader all
   
 Documentation
 =============
